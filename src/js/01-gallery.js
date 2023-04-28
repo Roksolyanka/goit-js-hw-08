@@ -13,6 +13,9 @@ const photos = galleryItems
   .join('');
 gallery.insertAdjacentHTML('beforeend', photos);
 
+gallery.style.listStyleType = 'none';
+gallery.style.padding = '0';
+
 const lightbox = new SimpleLightbox('.gallery a', {
   captions: true,
   captionsData: 'alt',
