@@ -17,11 +17,8 @@ gallery.style.listStyleType = 'none';
 gallery.style.padding = '0';
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  captions: true,
   captionsData: 'alt',
-  captionPosition: 'bottom',
   captionDelay: 250,
-  captionType: 'attr',
 });
 
 console.log(galleryItems);
